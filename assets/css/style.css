@@ -1229,7 +1229,7 @@ mobile menu
 1.2 testimonial-area start
 =========================================*/
 .testimonial-area{
-  background: url(../images/testimonial/1.jpg) no-repeat center top / cover;
+  background: url(../images/testimonial/van-mockup-isolated-concept-truck-mock-up-2025-01-07-23-20-12-utc.jpg) no-repeat center top / cover;
   padding: 100px 0;
   position: relative;
 }
@@ -2203,16 +2203,16 @@ mobile menu
     display: none;
 }
 .service-area.service-style-1 .service-content h3:before {
-    content: "\f104";
+    content: "\f106";
     color:#fff;
 
 }
 .service-area.service-style-1 .service-content2 h3:before {
-    content: "\f108";
+    content: "\f106";
     color:#fff;
 }
 .service-area.service-style-1 .service-content3 h3:before {
-    content: "\f100";
+    content: "\f105";
     color:#fff;
 }
 
@@ -2983,6 +2983,11 @@ mobile menu
     color: #666;
     display: block;
     padding-bottom: 10px;
+    
+}
+
+.contact-page-item span:hover {
+  color: #34ccff;
 }
 
 .contact-page-item .adress {
