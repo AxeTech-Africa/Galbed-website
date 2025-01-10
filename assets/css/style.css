@@ -3406,3 +3406,34 @@ page loader
     height: 0%;
   }
 }
+
+
+
+   /* WhatsApp Floating Button */
+   .whatsapp-float {
+    position: fixed;
+    bottom: 150px; /* Adjust the distance from the bottom */
+    right: 20px; /* Adjust the distance from the right */
+    background-color: #25D366; /* WhatsApp green color */
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Ensures it appears on top of other content */
+    text-decoration: none;
+}
+
+/* Hover effect for the button */
+.whatsapp-float:hover {
+    background-color: #128C7E; /* Darker WhatsApp color on hover */
+}
+
+/* Icon styling */
+.whatsapp-float i {
+    margin: 0;
+}

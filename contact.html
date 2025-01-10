@@ -161,35 +161,37 @@
                 <div class="col-lg-7 col-md-12">
                     <div class="contact-area">
                         <h2>Request Service</h2>
-                        <div class="contact-form">
-                            <form method="post" class="contact-validation-active" id="contact-form">
-                                <div class="half-col">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
-                                </div>
-                                <div class="half-col">
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
-                                </div>
-                                <div class="half-col">
-                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
-                                </div>
-                                <div class="half-col">
-                                    <input type="text" name="address" id="address" class="form-control" placeholder="Address">
-                                </div>
-                                <div>
-                                    <textarea class="form-control" name="note"  id="note" placeholder="Case Description..."></textarea>
-                                </div>
-                                <div class="submit-btn-wrapper">
-                                    <button type="submit" class="theme-btn-s3">Send</button>
-                                    <div id="loader">
-                                        <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
-                                    </div>
-                                </div>
-                                <div class="clearfix error-handling-messages">
-                                    <div id="success">Thank you</div>
-                                    <div id="error"> Error occurred while sending email. Please try again later. </div>
-                                </div>
-                            </form>
-                        </div>
+                        <!-- contact.html -->
+<div class="contact-form">
+    <form method="post" action="mail.php" class="contact-validation-active" id="contact-form">
+        <div class="half-col">
+            <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="half-col">
+            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="half-col">
+            <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
+        </div>
+        <div class="half-col">
+            <input type="text" name="address" id="address" class="form-control" placeholder="Your Address" required>
+        </div>
+        <div>
+            <textarea class="form-control" name="note" id="note" placeholder="Case Description..." required></textarea>
+        </div>
+        <div class="submit-btn-wrapper">
+            <button type="submit" class="theme-btn-s3">Send</button>
+            <div id="loader">
+                <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+            </div>
+        </div>
+        <div class="clearfix error-handling-messages">
+            <div id="success">Thank you</div>
+            <div id="error">Error occurred while sending email. Please try again later.</div>
+        </div>
+    </form>
+</div>
+
                     </div>
                 </div>
             </div>
@@ -243,13 +245,15 @@
                         <div class="footer-logo">
                             <img src="assets/images/logo/logo.png" alt="">
                         </div>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                        <p>By injected humour, or randomised words</p>
+                        <p>Reliable, Safe and On-Time</p>
                         <div class="social">
                             <ul class="d-flex">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
+                                <a href="https://wa.me/254715699966?text=Hello%20Galbed%20Transporters" target="_blank" class="whatsapp-float">
+                                    <i class="fa fa-whatsapp"></i>
+                                </a>
                             </ul>
                         </div>
                     </div>
