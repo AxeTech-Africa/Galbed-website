@@ -3550,3 +3550,36 @@ page loader
     margin-bottom: 15px;  /* Adjust margin further if needed */
   }
 }
+
+
+.footer-logo-container {
+  display: flex;
+  align-items: center; /* Vertically aligns the logo and text */
+  justify-content: flex-start; /* Aligns both elements to the left */
+  flex-wrap: wrap; /* Ensures it wraps on small screens */
+}
+
+.footer-logo img {
+  width: 150px; /* Adjust logo size for mobile if necessary */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.footer-logo-container p {
+  margin: 0;
+  
+}
+
+/* Media Query for mobile view */
+@media (max-width: 768px) {
+  .footer-logo-container {
+      justify-content: flex-start; /* Ensure left alignment on mobile */
+  }
+
+  .footer-logo img {
+      width: 100px; /* Adjust size of logo for smaller screens */
+      padding-right: 10px;
+      padding-bottom: 28px;
+
+  }
+  
+}
