@@ -94,7 +94,7 @@
 }
 .slick-slide.dragging img
 {
-    pointer-events: none;
+    pointer-events: auto;
 }
 .slick-initialized .slick-slide
 {

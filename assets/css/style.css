@@ -1638,6 +1638,7 @@ mobile menu
 }
 .footer-logo{
   margin-bottom: 30px;
+  width: 150px;
 }
 .social li a {
     display: block;
@@ -3437,3 +3438,99 @@ page loader
 .whatsapp-float i {
     margin: 0;
 }
+
+/* Scoped styles for logo and navigation */
+.col-lg-3 .logo img {
+  max-height: 120px; /* Adjust height as needed */
+  display: inline-block;
+  vertical-align: middle; /* Align logo with text */
+  padding-bottom: 12px;
+}
+
+.col-lg-8 .main-menu {
+  display: flex;
+  align-items: center; /* Center the menu items vertically */
+  justify-content: flex-end; /* Align the menu to the right */
+  padding-top: 34px;
+  
+}
+
+.col-lg-3 .logo {
+  margin-right: 20px; /* Add space between logo and menu */
+}
+
+/* Media Query for smaller screens (mobile) */
+@media (max-width: 991px) {
+  .row {
+    display: flex;
+    justify-content: space-between; /* Align logo, menu, and search side by side */
+    align-items: center; /* Align vertically on the same plane */
+    width: 100%;
+  }
+
+  .col-lg-3, .col-lg-8, .col-lg-1 {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+  }
+
+  .col-lg-3 .logo {
+    margin-right: 0; /* Ensure no margin between logo and menu */
+  }
+
+  .col-lg-8 .main-menu {
+    display: flex;
+    justify-content: center; /* Center the menu items */
+  }
+
+  .col-lg-8 .main-menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center; /* Keep menu items on the same horizontal plane */
+  }
+
+  .col-lg-8 .main-menu ul li {
+    padding: 10px 15px; /* Space between menu items */
+  }
+
+  /* Search Icon Alignment */
+  .col-lg-1 {
+    display: flex;
+    justify-content: center; /* Align search icon horizontally */
+    align-items: center; /* Align search icon vertically */
+  }
+}
+
+
+/* For extra small screens (portrait mode on mobile devices) */
+@media (max-width: 576px) {
+  .col-lg-3 .logo img {
+    max-height: 65px; /* Adjust logo size on very small screens */
+  }
+
+  .col-lg-8 .main-menu ul li {
+    font-size: 14px; /* Adjust font size on small screens */
+  }
+  
+}
+
+
+
+/* Align search icon with the menu items */
+.search {
+  display: flex;
+  align-items: center; /* Vertically center the search icon */
+  padding-bottom: 22px;
+}
+
+/* Default phone number style */
+#phone-number {
+  color: white; /* Default text color */
+  text-decoration: none; /* Remove underline */
+}
+
+#phone-number:hover {
+  color: #33cafd; /* Color on hover */
+  cursor: pointer; /* Change cursor to pointer when hovering */
+}
+
