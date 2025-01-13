@@ -3584,3 +3584,58 @@ page loader
   }
   
 }
+
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #f9f9f9; /* Optional: Add a background for distinction */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for effect */
+}
+
+.grid-item i {
+  font-size: 24px;
+  color: #33cafd; /* Icon color */
+}
+
+.grid-item span {
+  font-size: 16px;
+  color: #555; /* Text color */
+}
+
+
+
+
+
+
+
+
+.section-icon i {
+  font-size: 36px; /* Adjust size for visibility */
+  color: #33cafd; /* Ensure consistent theme color */
+  margin-bottom: 10px; /* Space below the icon */
+}
+
+.section-content p a {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333; /* Neutral text color */
+}
+
+.section-content span {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
