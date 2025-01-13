@@ -1636,10 +1636,7 @@ mobile menu
 .footer-top{
   padding: 60px 0;
 }
-.footer-logo{
-  margin-bottom: 30px;
-  width: 150px;
-}
+
 .social li a {
     display: block;
     height: 45px;
@@ -3534,3 +3531,22 @@ page loader
   cursor: pointer; /* Change cursor to pointer when hovering */
 }
 
+.footer-logo {
+  margin-bottom: 30px;
+  width: 150px; /* Default size for larger screens */
+}
+
+/* Media Query for smaller screens (mobile) */
+@media (max-width: 768px) {
+  .footer-logo {
+    width: 120px;  /* Smaller size on mobile */
+    margin-bottom: 20px;  /* Adjust margin for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo {
+    width: 100px;  /* Even smaller size for very small screens */
+    margin-bottom: 15px;  /* Adjust margin further if needed */
+  }
+}
