@@ -1762,7 +1762,7 @@ mobile menu
     padding: 0;
     width: 90px;
     height: 90px;
-    background: #34ccff;
+    background: #025299;
     border-radius: 50%;
     line-height: 75px;
     text-align: center;
@@ -1801,6 +1801,7 @@ mobile menu
 }
 .section-item-2 {
     padding: 25px 0 50px;
+    
 }
 .features-area.features-style-2{
   position: relative;
@@ -1821,7 +1822,7 @@ mobile menu
 .features-area.features-style-2 .features-icon {
     width: 90px;
     height: 90px;
-    background: #34ccff;
+    background: #025299;
     border-radius: 50%;
     line-height: 75px;
     text-align: center;
@@ -2027,7 +2028,7 @@ mobile menu
     border-radius: 5px;
 }
 .section-item-3:hover .section-icon i.fi {
-    background:#34ccff;
+    background:#025299;
     color:#fff;
 }
 .about-ss {
@@ -3189,7 +3190,7 @@ mobile menu
   top: 7px;
   width: 10px;
   height: 10px;
-  background: #34ccff;
+  background: #025299;
   border-radius: 50%;
 }
 /*=======================
