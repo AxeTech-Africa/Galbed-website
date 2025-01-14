@@ -3671,3 +3671,32 @@ page loader
 }
 
 
+.about-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-icon {
+    position: relative;
+    margin: 10px 0; /* Space between items */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.about-text {
+    display: none; /* Hide text by default */
+    position: absolute; /* Position text absolutely */
+    left: 30px; /* Adjust position as needed */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center adjustment */
+background-color:#274464;    color: white; /* Text color */
+    padding: 4px; /* Padding for text */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.small-icon {
+    font-size: 24px; /* Adjust icon size as needed */
+}
+
+.about-icon:hover .about-text {
+    display: block; /* Show text on hover */
+}
