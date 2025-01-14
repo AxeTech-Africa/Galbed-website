@@ -3701,3 +3701,9 @@ background-color:#274464;    color: white; /* Text color */
 .about-icon:hover .about-text {
     display: block; /* Show text on hover */
 }
+
+
+
+.phone{
+  padding-left:17px;
+}
