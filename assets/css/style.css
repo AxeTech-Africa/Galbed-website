@@ -3478,6 +3478,7 @@ page loader
   .col-lg-8 .main-menu {
     display: flex;
     justify-content: center; /* Center the menu items */
+    
   }
 
   .col-lg-8 .main-menu ul {
@@ -3508,18 +3509,13 @@ page loader
 
   .col-lg-8 .main-menu ul li {
     font-size: 14px; /* Adjust font size on small screens */
+    
   }
   
 }
 
 
 
-/* Align search icon with the menu items */
-.search {
-  display: flex;
-  align-items: center; /* Vertically center the search icon */
-  padding-bottom: 22px;
-}
 
 /* Default phone number style */
 #phone-number {
@@ -3582,6 +3578,11 @@ page loader
       padding-bottom: 28px;
 
   }
+  .footer-logo-container p {
+ padding-left: 10px;
+ margin-bottom: 25px;
+}
+
   
 }
 
@@ -3638,4 +3639,34 @@ page loader
   color: #555;
   line-height: 1.6;
 }
+
+
+
+
+
+
+@media (max-width: 768px) { /* Target devices with width <= 768px */
+  .mobile_menu {
+      position: relative; /* Adjust the position */
+      bottom: 15px; /* Move it up or down (negative values move it up) */
+      left: 0; /* Adjust horizontal positioning (e.g., center or left align) */
+      right: 0; /* Optional: for centering */
+      margin: auto; /* Optional: for centering */
+  }
+}
+
+
+
+
+/* Apply styles for desktop and larger screens */
+@media (max-width: 769px) {
+  /* Align search icon with the menu items on desktop */
+  .search {
+    display: flex;
+    align-items: center; /* Vertically center the search icon */
+    padding-right: 90px;
+    bottom: 17px;
+  }
+}
+
 
