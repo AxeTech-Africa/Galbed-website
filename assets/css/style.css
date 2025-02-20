@@ -311,7 +311,7 @@ a:focus {
 }
 .main-menu .submenu li a {
     padding: 10px 15px 10px 0px;
-    color: :#fff;
+    color: #fff;
     font-size: 14px;
 }
 
@@ -403,7 +403,7 @@ a:focus {
     display: block;
 }
 .main-menu .submenu li a:before {
-display: none;
+/* display: none; */
 }
 .main-menu .submenu li{
     padding: 2px 15px;
@@ -443,7 +443,7 @@ mobile menu
 }
 
 .slicknav_nav {
-    background: #2a2d2d;
+    background: #025299;
 }
 
 .slicknav_nav .slicknav_row:hover {
@@ -3788,4 +3788,16 @@ background-color:#274464;    color: white; /* Text color */
 
 .phone{
   padding-left:17px;
+}
+
+
+
+@media (max-width: 768px) {
+  .btn-style a {
+    background-color: #025299 !important;
+    color: #fff !important;  /* Ensure contrast */
+    padding: 10px 20px;       /* Optional: adjust as needed */
+    border-radius: 4px;       /* Optional: adjust as needed */
+    text-decoration: none;    /* Optional: remove underline */
+  }
 }
