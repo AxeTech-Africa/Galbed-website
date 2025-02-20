@@ -351,7 +351,7 @@ if ($(".odometer").length) {
 
 // Add event listener to handle copy on click
 document.getElementById('phone-number').addEventListener('click', function() {
-    var phoneNumber = '0748300000';
+    var phoneNumber = '+254748300000';
     
     // Create a temporary input element to copy the number
     var tempInput = document.createElement('input');
@@ -368,4 +368,7 @@ document.getElementById('phone-number').addEventListener('click', function() {
     // Optionally, alert the user or show a notification
     alert('Phone number copied to clipboard!');
   });
+  
+
+  
   
