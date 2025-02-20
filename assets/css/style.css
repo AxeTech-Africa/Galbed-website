@@ -2210,6 +2210,17 @@ mobile menu
     flex-direction: column;
 }
 
+
+@media (max-width: 767px) {
+  .breadcumb-area {
+      background-attachment: scroll; /* Fixes mobile issues with fixed backgrounds */
+      min-height: 350px; /* Adjust height to better suit mobile screens */
+  }
+}
+
+
+
+
 .breadcumb-area:before {
     content: "";
     width: 100%;
