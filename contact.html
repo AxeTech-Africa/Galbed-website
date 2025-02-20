@@ -154,7 +154,7 @@
                         <h2>Request Service</h2>
                         <!-- contact.html -->
 <div class="contact-form">
-    <form method="post" action="mail.php" class="contact-validation-active" id="contact-form">
+    <form action="https://formspree.io/f/xpwqbwba" method="POST">
         <div class="half-col">
             <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
         </div>
@@ -172,14 +172,9 @@
         </div>
         <div class="submit-btn-wrapper">
             <button type="submit" class="theme-btn-s3">Send</button>
-            <div id="loader">
-                <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
-            </div>
+           
         </div>
-        <div class="clearfix error-handling-messages">
-            <div id="success">Thank you</div>
-            <div id="error">Error occurred while sending email. Please try again later.</div>
-        </div>
+        
     </form>
 </div>
 
